@@ -1,0 +1,377 @@
+{
+  "sheet": {
+    "id": "310b6f04-148e-4d54-995d-598915747c45",
+    "ownerId": null,
+    "schemaVersion": 5,
+    "createdAt": "2026-10-21T13:23:12.048Z",
+    "updatedAt": "2026-10-21T13:23:12.048Z",
+    "name": "Gandalf",
+    "title": "Gandalf",
+    "system": "dnd5e",
+    "templateId": "dnd5e-completo",
+    "profile": {
+      "photo": null,
+      "slots": [
+        {
+          "id": "slot-ac",
+          "position": "top-left",
+          "enabled": true,
+          "label": "CA",
+          "value": "",
+          "max": null,
+          "orbRole": null
+        },
+        {
+          "id": "slot-extra",
+          "position": "top-right",
+          "enabled": false,
+          "label": "",
+          "value": "",
+          "max": null,
+          "orbRole": null
+        },
+        {
+          "id": "slot-sanidade",
+          "position": "bottom-left",
+          "enabled": false,
+          "label": "Sanidade",
+          "value": "",
+          "max": null,
+          "orbRole": null
+        },
+        {
+          "id": "slot-pv",
+          "position": "bottom-right",
+          "enabled": true,
+          "label": "PV",
+          "value": "",
+          "max": null,
+          "orbRole": null
+        }
+      ]
+    },
+    "attributes": [
+      {
+        "id": "f342d24d-b296-437f-8a27-ed0796ab3de5",
+        "name": "Força",
+        "value": 10,
+        "color": null
+      },
+      {
+        "id": "c8e65232-3260-474c-be22-d4dbac8055ab",
+        "name": "Destreza",
+        "value": 10,
+        "color": null
+      },
+      {
+        "id": "b67c6b2b-7565-4f53-9706-73d0de9b9744",
+        "name": "Constituição",
+        "value": 10,
+        "color": null
+      },
+      {
+        "id": "e495979f-dfa0-4767-84b3-863521fa1b06",
+        "name": "Inteligência",
+        "value": 10,
+        "color": null
+      },
+      {
+        "id": "ebe54732-471c-47c6-bede-3feb32db8b30",
+        "name": "Sabedoria",
+        "value": 10,
+        "color": null
+      },
+      {
+        "id": "7fd89060-492b-4e46-8dbb-f40f771bc6b4",
+        "name": "Carisma",
+        "value": 10,
+        "color": null
+      }
+    ],
+    "skills": [
+      {
+        "id": "6ff66460-4b78-4007-9bcb-e6a0143849b2",
+        "name": "Acrobacia",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "d05d641b-b3b0-4892-bbf4-3cb6463ee306",
+        "name": "Arcanismo",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "7ba599de-837b-49fc-b3e5-e0f7cc98a136",
+        "name": "Atletismo",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "e447ea76-035d-4d17-86e5-bfe980bb155f",
+        "name": "Apresentação",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "dc6abb2d-b06c-41f0-aa37-d4d26983fcaa",
+        "name": "Briga",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "304e9cc9-372f-4fca-832a-fdf7e06ebc77",
+        "name": "Charme",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "0f0d0ac5-202c-4a4e-8dc8-276aeed44d4b",
+        "name": "Enganação",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "7c26f553-9b0b-4aa0-b958-b73e0bf551e2",
+        "name": "História",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "5ce715fa-6f41-4673-8f32-95ff948d6392",
+        "name": "Intimidação",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "e8c28d79-7b2b-4332-89c7-b5658f3cee56",
+        "name": "Investigação",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "c68bb605-42e8-4df7-b72b-49621609cc9b",
+        "name": "Lábia",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "dd25f7c0-6b98-4652-ad53-d23de4e2ebc7",
+        "name": "Medicina",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "aeaa2284-e626-4750-89b1-e120561af6fd",
+        "name": "Natureza",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "36991c0b-d097-42e7-8582-1c246eef247d",
+        "name": "Percepção",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "a19bc489-f1e2-4d96-83c6-41a441943ed6",
+        "name": "Persuasão",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "a8cf7132-96be-4878-aad5-6eeab6d6f0bd",
+        "name": "Prestidigitação",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "11253d45-5bd5-411f-9d4a-1e9b8464f7ca",
+        "name": "Religião",
+        "value": 0,
+        "color": null
+      },
+      {
+        "id": "5b34148f-d712-44a3-a499-9fb7960af252",
+        "name": "Furtividade",
+        "value": 0,
+        "color": null
+      }
+    ],
+    "inventory": {
+      "weapons": [
+        {
+          "id": "3adefb8b-7a8c-4c4f-ab9f-f5b9eddfff79",
+          "name": "Espada longa",
+          "die": "d20",
+          "diceCount": 1,
+          "attackBonus": 0,
+          "attributeIds": [],
+          "color": null,
+          "itemId": null,
+          "isItem": false
+        },
+        {
+          "id": "c1498aea-acd8-437c-832e-c3e1e6e16c1b",
+          "name": "Cajado",
+          "die": "d20",
+          "diceCount": 1,
+          "attackBonus": 0,
+          "attributeIds": [],
+          "color": null,
+          "itemId": null,
+          "isItem": false
+        },
+        {
+          "id": "1c0d460c-f425-4516-8e2e-05811a76b516",
+          "name": "Arco",
+          "die": "d20",
+          "diceCount": 1,
+          "attackBonus": 0,
+          "attributeIds": [],
+          "color": null,
+          "itemId": null,
+          "isItem": false
+        }
+      ],
+      "items": [
+        {
+          "id": "62381f52-a208-4bbe-91ed-b68c2fd9314a",
+          "name": "Poção de cura",
+          "quantity": 2,
+          "weight": 0.5,
+          "value": 50,
+          "color": null,
+          "favorite": false,
+          "weaponData": null,
+          "equippedWeaponId": null
+        },
+        {
+          "id": "564c6b1e-d2d2-41be-9df2-8eaadebb9a03",
+          "name": "Rolo de pergaminho",
+          "quantity": 1,
+          "weight": 0.1,
+          "value": 10,
+          "color": null,
+          "favorite": false,
+          "weaponData": null,
+          "equippedWeaponId": null
+        },
+        {
+          "id": "b7d50c08-ee2c-4e72-990c-2522b2a6e79a",
+          "name": "Frasco de tinta",
+          "quantity": 1,
+          "weight": 0.2,
+          "value": 25,
+          "color": null,
+          "favorite": false,
+          "weaponData": null,
+          "equippedWeaponId": null
+        }
+      ],
+      "money": {
+        "label": "Dinheiro",
+        "value": 0
+      },
+      "carryCapacity": 30
+    },
+    "extraPanels": [
+      {
+        "id": "96db177f-fcc0-4f5f-8e37-b634e1741e99",
+        "title": "Lista de teste",
+        "type": "list",
+        "content": "",
+        "entries": [
+          {
+            "id": "51194de5-8913-4f0a-a430-cc126b9eb489",
+            "name": "Alfa",
+            "number": 1,
+            "color": null
+          },
+          {
+            "id": "4ed185d4-dcec-4278-9a95-811e1a128941",
+            "name": "Beta",
+            "number": 2,
+            "color": null
+          },
+          {
+            "id": "2b53eff6-79ec-4db1-91ed-3a6b4cf22e88",
+            "name": "Gamma",
+            "number": 3,
+            "color": null
+          }
+        ]
+      }
+    ],
+    "layout": [
+      {
+        "panelId": "profile",
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 12,
+        "visible": true,
+        "order": 0
+      },
+      {
+        "panelId": "inventory",
+        "x": 12,
+        "y": 0,
+        "w": 24,
+        "h": 24,
+        "visible": true,
+        "order": 1
+      },
+      {
+        "panelId": "roll-result",
+        "x": 36,
+        "y": 0,
+        "w": 12,
+        "h": 20,
+        "visible": true,
+        "order": 2
+      },
+      {
+        "panelId": "attributes",
+        "x": 0,
+        "y": 24,
+        "w": 48,
+        "h": 20,
+        "visible": true,
+        "order": 3
+      },
+      {
+        "panelId": "skills",
+        "x": 0,
+        "y": 44,
+        "w": 48,
+        "h": 20,
+        "visible": true,
+        "order": 4
+      },
+      {
+        "panelId": "extra:96db177f-fcc0-4f5f-8e37-b634e1741e99",
+        "x": 0,
+        "y": 64,
+        "w": 24,
+        "h": 12,
+        "visible": true,
+        "order": 5
+      }
+    ],
+    "rollHistory": [],
+    "settings": {
+      "sellEnabled": false
+    }
+  },
+  "sheetKey": "rpgv3:sheet:310b6f04-148e-4d54-995d-598915747c45",
+  "indexKey": "rpgv3:sheets",
+  "summary": {
+    "id": "310b6f04-148e-4d54-995d-598915747c45",
+    "name": "Gandalf",
+    "title": "Gandalf",
+    "system": "dnd5e",
+    "templateId": "dnd5e-completo",
+    "updatedAt": "2026-10-21T13:23:12.048Z"
+  }
+}
