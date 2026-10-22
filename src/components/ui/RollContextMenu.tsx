@@ -141,6 +141,10 @@ export function RollContextMenu({
               disabled={item.disabled}
               onClick={item.onSelect}
               sx={{
+                textAlign: "center",
+                textJustify:"auto",
+                background:"rgb(210,200,200)",
+                color:"",
                 borderRadius: "var(--radius-sm)",
                 fontSize: "0.8125rem",
                 minHeight: "2rem",

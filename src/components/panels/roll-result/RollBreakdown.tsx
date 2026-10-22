@@ -53,7 +53,7 @@ function TotalLine({
 
 function DieLines({
   roll,
-  labelPrefix = "Dado",
+  labelPrefix = roll.die,
 }: {
   roll: RollRecord;
   labelPrefix?: string;
@@ -63,7 +63,7 @@ function DieLines({
   return roll.dice.map((value: number, index: number) => (
     <BreakdownLine
       key={index}
-      label={`${labelPrefix} ${index + 1}`}
+      label={`${index + 1}º ${labelPrefix}`}
       value={String(value)}
     />
   ));

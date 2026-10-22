@@ -93,7 +93,7 @@ function EmptyResult() {
 
 function LastRoll({ roll }: { roll: RollRecord }) {
   return (
-    <Tooltip enterDelay={200} title={describeRoll(roll)}>
+    <Tooltip enterDelay={500} title={describeRoll(roll)}>
       <div
         className="flex flex-col items-center gap-1 text-center"
         role="group"
@@ -118,10 +118,6 @@ function LastRoll({ roll }: { roll: RollRecord }) {
               : undefined
           }
         />
-
-        <span className="label-caps text-text-muted max-w-full truncate">
-          {roll.label}
-        </span>
 
         {/* O detalhamento AGORA usa o RollBreakdown — mesmo componente do
             histórico e do foco, e o §5 pede essa organização visual. */}

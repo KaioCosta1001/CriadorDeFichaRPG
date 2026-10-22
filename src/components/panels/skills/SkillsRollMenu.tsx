@@ -87,20 +87,20 @@ export function SkillsRollMenu({ context, skill, menu }: SkillsRollMenuProps) {
     <>
       <RollContextMenu
         above={
-          <label className="flex items-center gap-2 px-3 py-1.5">
+          <label className="text-amber-100 flex items-center gap-2 px-3 py-1.5">
             <span className="text-text-muted shrink-0 text-[10px] tracking-[0.12em] uppercase">
               Atrib.
             </span>
             <select
               aria-label="Atributo usado na rolagem"
-              className="border-frame bg-surface focus:border-accent min-w-0 flex-1 rounded-[var(--radius-sm)] border px-1 py-1 text-xs outline-none"
+              className="text-amber-100 border-frame bg-surface focus:border-accent min-w-0 flex-1 rounded-[var(--radius-sm)] border px-1 py-1 text-xs outline-none"
               value={attributeId}
               // Sem isto, o `MenuList` do MUI trataria o "Enter" aqui como
               // seleção de item e fecharia o popup no meio da escolha.
               onKeyDown={(event) => event.stopPropagation()}
               onChange={(event) => setAttributeId(event.target.value)}
             >
-              <option value="">— sem atributo —</option>
+              <option value="">-Sem Atributo-</option>
               {attributes.map((attribute: Attribute) => (
                 <option key={attribute.id} value={attribute.id}>
                   {attribute.name || "Sem nome"} ({attribute.value})

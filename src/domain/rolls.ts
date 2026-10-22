@@ -142,7 +142,7 @@ export function rollSkillDry(
   const deps = resolve(dependencies);
   return build(
     "skill",
-    `${skill.name} (seca)`,
+    `${skill.name} (Puro)`,
     rollDie(ROLL_BASE_DIE, deps.rng),
     [{ label: SKILL_COMPONENT_LABEL, value: skill.value }],
     skill.id,

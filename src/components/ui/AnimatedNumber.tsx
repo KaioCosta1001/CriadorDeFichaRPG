@@ -222,6 +222,7 @@ export function AnimatedNumber({
   }, [isAnimating, value, onDone, updateDisplay]);
 
   return (
+    
     <span
       className={className}
       style={style}
@@ -230,7 +231,7 @@ export function AnimatedNumber({
       aria-label={`Resultado: ${value}${isAnimating ? ". Clique para pular." : ""}`}
       tabIndex={0}
     >
-      {displayValue}
+     {displayValue}
     </span>
   );
 }
